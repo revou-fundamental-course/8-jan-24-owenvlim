@@ -1,0 +1,136 @@
+.top1{
+    position: absolute;
+    left: 629px;
+}
+
+.top select{
+    position: absolute;
+    top: 10%;
+    left: 47.4%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.top .value{
+    align-items: center;
+}
+.a{
+    position: absolute;
+    top: 19%;
+    left: 43.5%;
+    font-size: 34px;
+}
+
+.b{
+    position: absolute;
+    top: 36%;
+    left: 43.5%;
+    font-size: 34px;
+}
+
+.c{
+    position: absolute;
+    top: 19%;
+    left: 56%;
+    font-size: 34px;
+}
+
+.d{
+    position: absolute;
+    top: 36%;
+    left: 56%;
+    font-size: 34px;
+}
+
+.square {
+    height: 140px;
+    width: 140px;
+    background-color: darkgray;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.display span{
+    position: absolute;
+    top: 45%;
+    left: 46.8%;
+    font-size: 20px;
+    
+}
+
+.container{
+    width: 100%;
+    height: 135vh;
+    background: #e3f9ff;
+    display: flex;
+    margin-left: 12px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboard{
+    background-color: darkgray;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.keyboard input{
+    border: 0.2;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(190, 190, 190),5px 5px 15px rgb(49, 49, 49);
+    background-color: transparent;
+    font-size: 20px;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+
+.display input{
+    text-align: center;
+    flex: 1;
+    font-size: 40px;
+}
+
+.display input a :after{
+    animation-delay: 100ms;
+    
+}
+
+.display center{
+    position: absolute;
+    top: 62%;
+    left: 47.5%;
+    font-size: 50px ;
+}
+
+form .button1{
+    position: absolute;
+    top: 81%;
+    display: flex;
+    left: 44%;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
